@@ -1,0 +1,7 @@
+const generateRandomNumber = function () {
+  const randomSeed = Math.random();
+  const number = randomSeed * 1000;
+  const roundedNumber = Math.random(number);
+
+  return roundedNumber;
+};
